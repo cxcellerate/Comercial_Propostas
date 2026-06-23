@@ -1,0 +1,19 @@
+# Configurações locais do Claude Code (contêm caminhos e TOKENS locais — nunca versionar)
+.claude/
+
+# Segredos / credenciais (defesa)
+*.env
+.env*
+*token*
+*secret*
+*credential*
+*.key
+*.pem
+
+# Sistema operacional
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Dependências
+node_modules/
