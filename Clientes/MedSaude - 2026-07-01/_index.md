@@ -22,7 +22,8 @@
 - `nuvemshop-asaas-ecommerce-research.md` — pesquisa técnica Nuvemshop + Asaas
 - `proposta-medsaude.html` — proposta base (copy neutra)
 - `proposta-medsaude-v2.html` — proposta com copy persuasiva (hard-copy)
-- `contrato-medsaude-prestacao-servicos-v2.html` — **minuta VIGENTE** (10/07/2026, pós-parecer): + cláusula 12ª (obrigação de meio, responsabilidade limitada ao valor pago, força maior), 13ª (confidencialidade recíproca), 7.3 (aprovação tácita do PRD), 3.3 harmonizado (fallback por aditivo); Disposições Gerais → 14ª, Foro → 15ª (e-mail de notificações agora na cláusula 14.3)
+- `contrato-medsaude-prestacao-servicos-v3.html` — **minuta VIGENTE** (10/07/2026, pós-memorando): v2 + blindagem da base proprietária dos apps (9.4 — resolvia o 🔴 de PI do memorando, Lei 9.609/98), subcontratação (5.2), garantia sem "incondicional" (8.1), LGPD defensiva + incidentes 48h + dados agregados (10.4–10.6 — reforço para dado de saúde), piso de 20% na rescisão (11.2), fallback de pagamento 50/50 (3.3), confidencialidade 5 anos (13.1), não aliciamento (14.6) e sobrevivência (14.7).
+- `contrato-medsaude-prestacao-servicos-v2.html` — minuta v2 (superada, histórico; pós-parecer): + cláusula 12ª (obrigação de meio, responsabilidade limitada ao valor pago, força maior), 13ª (confidencialidade recíproca), 7.3 (aprovação tácita do PRD), 3.3 harmonizado (fallback por aditivo); Disposições Gerais → 14ª, Foro → 15ª (e-mail de notificações agora na cláusula 14.3)
 - `contrato-medsaude-prestacao-servicos.html` — minuta v1 (superada, histórico)
 
 ## Contrato — minuta gerada em 10/07/2026

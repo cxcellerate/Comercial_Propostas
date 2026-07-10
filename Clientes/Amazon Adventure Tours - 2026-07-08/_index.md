@@ -30,7 +30,8 @@ Esta proposta é um **escopo alternativo**: site institucional em **português**
 - **Validade:** 30 dias
 
 ## Contrato (10/07/2026)
-- `contrato-amazon-adventure-tours-prestacao-servicos-v2.html` — **VERSÃO VIGENTE** (10/07/2026, pós-parecer): adiciona cláusula 12ª (obrigação de meio, responsabilidade limitada ao valor pago, força maior), cláusula 13ª (confidencialidade recíproca 2 anos), item 7.3 (aprovação tácita do PRD em 5 dias úteis); Disposições Gerais → 14ª, Foro → 15ª.
+- `contrato-amazon-adventure-tours-prestacao-servicos-v3.html` — **VERSÃO VIGENTE** (10/07/2026, pós-memorando): v2 + subcontratação (5.2), garantia sem "incondicional" (8.1), blindagem da base proprietária/outputs de IA (9.4), LGPD defensiva + dados agregados (10.4–10.6), piso de 20% na rescisão (11.2), fallback de pagamento 50/50 definido (3.3 — corrige a fragilidade apontada no memorando), confidencialidade 5 anos (13.1), não aliciamento (14.6) e sobrevivência (14.7).
+- `contrato-amazon-adventure-tours-prestacao-servicos-v2.html` — versão v2 (superada, histórico; pós-parecer): adiciona cláusula 12ª (obrigação de meio, responsabilidade limitada ao valor pago, força maior), cláusula 13ª (confidencialidade recíproca 2 anos), item 7.3 (aprovação tácita do PRD em 5 dias úteis); Disposições Gerais → 14ª, Foro → 15ª.
 - `contrato-amazon-adventure-tours-prestacao-servicos.html` — minuta v1 (superada; manter só como histórico). **Minuta gerada por IA — revisar com advogado antes de celebrar.**
 - Forma de pagamento aplicada: **padrão da casa — PIX à vista com 10% de desconto = R$ 11.520,00** (o `_index` só registrava as 4 opções da proposta, nenhuma fechada).
 

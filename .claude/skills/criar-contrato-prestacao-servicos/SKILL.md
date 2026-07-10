@@ -38,21 +38,22 @@ Gera a **minuta de contrato de prestação de serviços** da CXcellerate em HTML
 | `{{CRONOGRAMA_LINHAS_HTML}}` | `<tr>` por etapa da proposta | PRD+Design 2 sem; Dev 3 sem... |
 | `{{VALOR_TOTAL_TEXTO}}` | Valor **CHEIO** (sem desconto) por extenso + o que compreende — o desconto aparece só em 3.2/3.3 | R$ 8.000,00 (oito mil reais), compreendendo... |
 | `{{PAGAMENTO_LINHAS_HTML}}` | `<tr>` apenas da(s) forma(s) FECHADA(S) na negociação, com valor final calculado | PIX à vista 10% desc → R$ 7.200,00 |
-| `{{PAGAMENTO_COMPLEMENTO}}` | Item 3.3 — condições (desconto vinculado, parcela na assinatura) e SEMPRE terminar com o fallback padrão: "Não realizado o pagamento nessa condição, prevalece o valor integral do item 3.1, em condições de pagamento formalizadas por termo aditivo entre as partes." | — |
+| `{{PAGAMENTO_COMPLEMENTO}}` | Item 3.3 — condições (desconto vinculado, parcela na assinatura) e SEMPRE terminar com o fallback padrão: "Não realizado o pagamento nessa condição, prevalece o valor integral do item 3.1, pagável 50% (cinquenta por cento) em até 5 (cinco) dias úteis contados da assinatura e 50% (cinquenta por cento) na entrega final, salvo condição diversa formalizada por termo aditivo entre as partes." | — |
 | `{{MATERIAIS_KICKOFF}}` | Materiais que o cliente entrega até o kickoff (premissas da proposta) | logo, produtos, domínio... |
 | `{{FORNECEDORES_LINHAS_HTML}}` | `<tr>` por fornecedor pago direto pelo cliente | Workspace, Cloudflare, Registro.br |
 | `{{EMAIL_NOTIFICACOES_CONTRATANTE}}` | E-mail oficial ou `<mark>[...]</mark>` | — |
 
 ## Padrões da casa (já fixos no template — NÃO alterar sem ordem da Thaís)
 
-- **Garantia:** 90 dias, incondicional; régua de defeito = PRD aprovado (cláusula 8).
+- **Garantia:** 90 dias; correção de defeitos vs. PRD aprovado sem custo (cláusula 8 — o adjetivo "incondicional" foi REMOVIDO da redação contratual no memorando de 10/07/2026 por convidar leitura expansiva; o compromisso comercial segue o mesmo).
 - **Prazo:** conta do kickoff COM materiais entregues; atraso do cliente prorroga automaticamente (cláusula 2).
 - **Pagamento padrão:** PIX à vista com 10% de desconto; desconto vinculado ao pagamento na assinatura. Mora: multa 2% + juros 1% a.m. + IPCA.
 - **Propriedade:** entregas/domínio/dados/contas = cliente após quitação; componentes de base CXcellerate = licenciados perpétuos não exclusivos (cláusula 9). Projetos com apps: código-base é da CXcellerate, ver memória `padroes-comerciais-cxcellerate`.
 - **LGPD:** cliente = controlador; CXcellerate = operadora durante a execução (cláusula 10).
 - **PRD com aprovação tácita:** sem manifestação do cliente em 5 dias úteis após solicitação formal, o PRD considera-se aprovado (cláusula 7.3).
 - **Responsabilidade e força maior (cláusula 12 — incluída pós-parecer de 10/07/2026):** obrigação de MEIO (projeções da proposta não são garantia de resultado); responsabilidade da CXcellerate limitada ao valor pago; sem danos indiretos/lucros cessantes; força maior inclui indisponibilidade de plataformas de terceiros.
-- **Confidencialidade recíproca (cláusula 13):** 2 anos após o término.
+- **Confidencialidade recíproca (cláusula 13):** 5 anos após o término.
+- **Proteções v3 (memorando de 10/07/2026, todas fixas no template):** subcontratação/subprocessadores autorizados com responsabilidade pela cadeia (5.2) · base tecnológica proprietária NUNCA transferida — só personalização e conteúdos de IA vão ao cliente (9.4, crítico em projetos com apps — Lei 9.609/98) · LGPD defensiva: base legal a cargo do cliente + regresso + incidentes em 48h úteis + uso de dados agregados/anonimizados pela CX (10.4–10.6) · piso não reembolsável de 20% na rescisão por conveniência com trabalhos iniciados (11.2) · autonomia técnica sem pessoalidade/subordinação (14.1) · não aliciamento de equipe por 12 meses com multa de 6× a remuneração (14.6) · sobrevivência das cláusulas 9ª/10ª/12ª/13ª/14.6 (14.7).
 - **Numeração:** Disposições Gerais = cláusula 14ª · Foro = cláusula 15ª.
 - **Foro:** Santo André/SP. **Contratada:** CX Cellerate Ltda, CNPJ 65.230.554/0001-20, rep. Thaís Kurünzi (CPF 852.603.042-68).
 - **2 testemunhas** (título executivo extrajudicial, art. 784 CPC).
