@@ -28,3 +28,7 @@ Para usar a skill fora deste repositório, copie a pasta `pesquisar-cliente-prop
 Gera a **minuta de contrato de prestação de serviços** (HTML em papel timbrado CXcellerate, direito brasileiro) a partir de uma proposta aprovada. Versionada em [`.claude/skills/criar-contrato-prestacao-servicos/`](.claude/skills/criar-contrato-prestacao-servicos/) (instruções em `SKILL.md` + `contrato-template.html`).
 
 **Como usar:** com o repositório aberto no Claude Code, peça *"gerar o contrato do cliente X"* após a proposta fechar — a skill lê a proposta, o dossiê e o `_index.md` da pasta do cliente e gera `contrato-<cliente>-prestacao-servicos.html` com os padrões da casa (garantia 90 dias, foro Santo André/SP, PIX à vista com 10% de desconto). Campos desconhecidos ficam destacados em magenta para preencher antes da assinatura. **Toda minuta deve ser revisada por advogado antes de assinar.**
+
+## Skill `legal-assistant`
+
+Skill de **análise e revisão de contratos** (em [`.claude/skills/legal-assistant/`](.claude/skills/legal-assistant/)): identifica cláusulas de risco, traduz juridiquês, destaca obrigações e sugere pontos de negociação. Usar para auditar contratos recebidos de terceiros ou revisar as próprias minutas (ex.: *"analise este contrato"*). Fornece orientação informativa — **não substitui advogado**.
