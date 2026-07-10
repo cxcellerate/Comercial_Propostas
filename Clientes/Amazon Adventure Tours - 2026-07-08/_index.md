@@ -30,7 +30,8 @@ Esta proposta é um **escopo alternativo**: site institucional em **português**
 - **Validade:** 30 dias
 
 ## Contrato (10/07/2026)
-- `contrato-amazon-adventure-tours-prestacao-servicos.html` — minuta gerada em 10/07/2026 a partir da proposta v2 (R$ 12.800, 6 semanas). **Minuta gerada por IA — revisar com advogado antes de celebrar.**
+- `contrato-amazon-adventure-tours-prestacao-servicos-v2.html` — **VERSÃO VIGENTE** (10/07/2026, pós-parecer): adiciona cláusula 12ª (obrigação de meio, responsabilidade limitada ao valor pago, força maior), cláusula 13ª (confidencialidade recíproca 2 anos), item 7.3 (aprovação tácita do PRD em 5 dias úteis); Disposições Gerais → 14ª, Foro → 15ª.
+- `contrato-amazon-adventure-tours-prestacao-servicos.html` — minuta v1 (superada; manter só como histórico). **Minuta gerada por IA — revisar com advogado antes de celebrar.**
 - Forma de pagamento aplicada: **padrão da casa — PIX à vista com 10% de desconto = R$ 11.520,00** (o `_index` só registrava as 4 opções da proposta, nenhuma fechada).
 
 ### Pendências do contrato (campos `<mark>` a preencher antes da assinatura)

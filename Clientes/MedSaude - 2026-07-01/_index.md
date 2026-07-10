@@ -22,7 +22,8 @@
 - `nuvemshop-asaas-ecommerce-research.md` — pesquisa técnica Nuvemshop + Asaas
 - `proposta-medsaude.html` — proposta base (copy neutra)
 - `proposta-medsaude-v2.html` — proposta com copy persuasiva (hard-copy)
-- `contrato-medsaude-prestacao-servicos.html` — minuta de contrato (gerada 10/07/2026, base proposta v2 de 01/07/2026)
+- `contrato-medsaude-prestacao-servicos-v2.html` — **minuta VIGENTE** (10/07/2026, pós-parecer): + cláusula 12ª (obrigação de meio, responsabilidade limitada ao valor pago, força maior), 13ª (confidencialidade recíproca), 7.3 (aprovação tácita do PRD), 3.3 harmonizado (fallback por aditivo); Disposições Gerais → 14ª, Foro → 15ª (e-mail de notificações agora na cláusula 14.3)
+- `contrato-medsaude-prestacao-servicos.html` — minuta v1 (superada, histórico)
 
 ## Contrato — minuta gerada em 10/07/2026
 - **Valor:** R$ 37.900,00 (Web R$ 26.000 + Apps R$ 11.900) · **Forma no contrato:** PIX à vista com 10% desc = R$ 34.110,00 (padrão da casa — forma fechada NÃO estava registrada aqui)

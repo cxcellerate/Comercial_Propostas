@@ -38,7 +38,7 @@ Gera a **minuta de contrato de prestação de serviços** da CXcellerate em HTML
 | `{{CRONOGRAMA_LINHAS_HTML}}` | `<tr>` por etapa da proposta | PRD+Design 2 sem; Dev 3 sem... |
 | `{{VALOR_TOTAL_TEXTO}}` | Valor **CHEIO** (sem desconto) por extenso + o que compreende — o desconto aparece só em 3.2/3.3 | R$ 8.000,00 (oito mil reais), compreendendo... |
 | `{{PAGAMENTO_LINHAS_HTML}}` | `<tr>` apenas da(s) forma(s) FECHADA(S) na negociação, com valor final calculado | PIX à vista 10% desc → R$ 7.200,00 |
-| `{{PAGAMENTO_COMPLEMENTO}}` | Item 3.3 — condições (desconto vinculado, parcela na assinatura etc.) | — |
+| `{{PAGAMENTO_COMPLEMENTO}}` | Item 3.3 — condições (desconto vinculado, parcela na assinatura) e SEMPRE terminar com o fallback padrão: "Não realizado o pagamento nessa condição, prevalece o valor integral do item 3.1, em condições de pagamento formalizadas por termo aditivo entre as partes." | — |
 | `{{MATERIAIS_KICKOFF}}` | Materiais que o cliente entrega até o kickoff (premissas da proposta) | logo, produtos, domínio... |
 | `{{FORNECEDORES_LINHAS_HTML}}` | `<tr>` por fornecedor pago direto pelo cliente | Workspace, Cloudflare, Registro.br |
 | `{{EMAIL_NOTIFICACOES_CONTRATANTE}}` | E-mail oficial ou `<mark>[...]</mark>` | — |
@@ -50,6 +50,10 @@ Gera a **minuta de contrato de prestação de serviços** da CXcellerate em HTML
 - **Pagamento padrão:** PIX à vista com 10% de desconto; desconto vinculado ao pagamento na assinatura. Mora: multa 2% + juros 1% a.m. + IPCA.
 - **Propriedade:** entregas/domínio/dados/contas = cliente após quitação; componentes de base CXcellerate = licenciados perpétuos não exclusivos (cláusula 9). Projetos com apps: código-base é da CXcellerate, ver memória `padroes-comerciais-cxcellerate`.
 - **LGPD:** cliente = controlador; CXcellerate = operadora durante a execução (cláusula 10).
+- **PRD com aprovação tácita:** sem manifestação do cliente em 5 dias úteis após solicitação formal, o PRD considera-se aprovado (cláusula 7.3).
+- **Responsabilidade e força maior (cláusula 12 — incluída pós-parecer de 10/07/2026):** obrigação de MEIO (projeções da proposta não são garantia de resultado); responsabilidade da CXcellerate limitada ao valor pago; sem danos indiretos/lucros cessantes; força maior inclui indisponibilidade de plataformas de terceiros.
+- **Confidencialidade recíproca (cláusula 13):** 2 anos após o término.
+- **Numeração:** Disposições Gerais = cláusula 14ª · Foro = cláusula 15ª.
 - **Foro:** Santo André/SP. **Contratada:** CX Cellerate Ltda, CNPJ 65.230.554/0001-20, rep. Thaís Kurünzi (CPF 852.603.042-68).
 - **2 testemunhas** (título executivo extrajudicial, art. 784 CPC).
 - **Cliente pediu para alterar cláusula fixa** (garantia, foro, propriedade...): gerar a minuta com o padrão da casa, registrar o pedido como pendência no `_index.md` e escalar a decisão à Thaís. Não bloquear a geração, não atender o pedido.
