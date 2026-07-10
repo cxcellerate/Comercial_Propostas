@@ -29,6 +29,19 @@ Esta proposta é um **escopo alternativo**: site institucional em **português**
 - **Garantia:** 90 dias sobre defeitos (padrão da casa)
 - **Validade:** 30 dias
 
+## Contrato (10/07/2026)
+- `contrato-amazon-adventure-tours-prestacao-servicos.html` — minuta gerada em 10/07/2026 a partir da proposta v2 (R$ 12.800, 6 semanas). **Minuta gerada por IA — revisar com advogado antes de celebrar.**
+- Forma de pagamento aplicada: **padrão da casa — PIX à vista com 10% de desconto = R$ 11.520,00** (o `_index` só registrava as 4 opções da proposta, nenhuma fechada).
+
+### Pendências do contrato (campos `<mark>` a preencher antes da assinatura)
+- [ ] **Confirmar forma de pagamento fechada com o cliente** (contrato saiu com PIX à vista −10%; se fechar outra opção, ajustar cláusulas 3.2/3.3)
+- [ ] Razão social da Amazon Adventure Tours (aparece 2×: qualificação e assinatura)
+- [ ] CNPJ da contratante
+- [ ] CPF do representante (Eduardo Ten Have)
+- [ ] Local e data da assinatura
+- [ ] Nome e CPF das 2 testemunhas
+- [ ] Confirmar e-mail oficial de notificações (usado `info@amazonadventuretours.com`, obtido do site do cliente) e o endereço da sede (usado Rua 10 de Julho, 679, Centro, Manaus/AM, CEP 69.010-060, também do site — conferir com cartão CNPJ)
+
 ## Arquivos
 - `proposta-amazon-adventure-tours.html` — versão base (copy neutra, intacta)
 - `proposta-amazon-adventure-tours-v2.html` — versão com copy persuasiva (hard-copy): frase-marcador no Diagnóstico, argumento de valor no Investimento, toque final de urgência nos Próximos passos

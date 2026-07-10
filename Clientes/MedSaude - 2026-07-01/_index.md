@@ -22,6 +22,24 @@
 - `nuvemshop-asaas-ecommerce-research.md` — pesquisa técnica Nuvemshop + Asaas
 - `proposta-medsaude.html` — proposta base (copy neutra)
 - `proposta-medsaude-v2.html` — proposta com copy persuasiva (hard-copy)
+- `contrato-medsaude-prestacao-servicos.html` — minuta de contrato (gerada 10/07/2026, base proposta v2 de 01/07/2026)
+
+## Contrato — minuta gerada em 10/07/2026
+- **Valor:** R$ 37.900,00 (Web R$ 26.000 + Apps R$ 11.900) · **Forma no contrato:** PIX à vista com 10% desc = R$ 34.110,00 (padrão da casa — forma fechada NÃO estava registrada aqui)
+- Mensalidades (Suporte CX R$ 770, WhatsApp IA R$ 390, pacote catálogo R$ 1.500, tráfego pago) ficaram FORA do valor, listadas na exclusão 1.2 (contratáveis por instrumento próprio/aditivo); fornecedores externos (Nuvemshop, Asaas, logística, servidor/régua, Workspace) na cláusula 6
+- Apps: publicação nas contas Apple/Google Developer da CXcellerate sem anuidade para o cliente (item 1.3); código-base licenciado (cláusula 9.2 padrão, sem alteração)
+- ⚠️ Minuta gerada por IA — **revisar com advogado antes de assinar**
+
+### Pendências do contrato (campos `<mark>` a preencher)
+- [ ] **Confirmar forma de pagamento fechada com o cliente** (contrato saiu com o padrão PIX à vista −10%)
+- [ ] Razão social da MedSaude (aparece 2×: qualificação e assinatura)
+- [ ] CNPJ da MedSaude
+- [ ] Endereço completo da MedSaude, com CEP
+- [ ] Representante legal (Leandro ou Tânia?) + CPF (aparece 2×)
+- [ ] E-mail oficial da MedSaude para notificações (cláusula 12.3)
+- [ ] Local e data de assinatura
+- [ ] Nome e CPF das 2 testemunhas
+- [ ] Cláusula de continuidade (código liberado se a CX encerrar atividades): decisão em aberto — definir antes de assinar (nota já existente nas respostas engatilhadas)
 
 ## Slides-chave (blindagem das perguntas difíceis)
 - Slide "05 — Tecnologia": Web = base Nuvemshop + camada CXcellerate · Apps = base proprietária, multiplataforma com performance nativa (responde "como R$ 26k cobre tudo?")

@@ -14,6 +14,7 @@ Pesquisa de mercado/plataformas: memória `project_missmake_marketplace_research
 - `proposta-miss-make.html` — Fase 2: proposta **base** (deck dark CXcellerate, 9 slides), copy neutra.
 - `proposta-miss-make-v2.html` — **versão persuasiva** (hard-copy). Marcador: "Estoque parado não é patrimônio — é prejuízo com data marcada." **Congelada em 02/07/2026.**
 - `proposta-miss-make-v3.html` — **versão de trabalho atual** (02/07/2026): 18 slides na sequência da proposta MedSaude (Escopo, Ecossistema, Tecnologia, Cronograma, Integrações Pagamento/Fiscal/Logística, Investimento, Pós-lançamento, Evolução R$ 1.500, Serviços recomendados, LGPD, Propriedade & contas, Premissas, Próximos passos — sem o slide 14/Regulatório), tudo adaptado ao mercado de cosméticos. Comparativos de gateway e logística portados da MedSaude.
+- `contrato-miss-make-prestacao-servicos.html` — **minuta de contrato** (gerada em 10/07/2026, base: proposta v3 + dossiê). Valor total R$ 37.900,00; forma de pagamento na minuta: **PIX à vista com 10% de desconto → R$ 34.110,00** (padrão da casa — forma fechada ainda não confirmada). Padrões da casa aplicados: garantia 90 dias, foro Santo André/SP, código-base dos apps licenciado (cláusula 9.2), publicação nas contas developer da CXcellerate sem anuidade para o cliente (item 1.4), mensalidades/opcionais fora do objeto (1.2/1.3), fornecedores externos na cláusula 6. **Minuta gerada por IA — revisar com advogado antes de celebrar.**
 
 ## Valores e condições (preenchidos em 02/07/2026, espelhando a proposta MedSaude)
 - **Essencial:** R$ 26.000,00 · **Completo:** R$ 37.900,00 (valor fechado, não percentual sobre vendas).
@@ -24,3 +25,11 @@ Pesquisa de mercado/plataformas: memória `project_missmake_marketplace_research
 
 ## Pendências
 - Confirmar com o Monteiro: **nome + API do ERP do CD** (não bloqueia o envio).
+
+### Contrato (campos `<mark>` a preencher antes da assinatura)
+- **Confirmar forma de pagamento fechada com o cliente** — a minuta usa o padrão da casa (PIX à vista −10% → R$ 34.110,00); se fechar outra forma, ajustar cláusulas 3.2/3.3.
+- **CNPJ da contratante** — confirmar CNPJ da Miss Make Franchising Ltda e avaliar se o contrato será celebrado no CNPJ apartado da operação digital (ainda não definido; ver dossiê, "A confirmar").
+- **Endereço completo com CEP** da sede (Goiânia/GO).
+- **Representante legal** (nome + CPF) — Monteiro Sales é contato de marketing, não confirmado como representante legal.
+- **E-mail oficial de notificações** da contratante (cláusula 12.3).
+- **Local e data de assinatura** e **2 testemunhas** (nome + CPF).
