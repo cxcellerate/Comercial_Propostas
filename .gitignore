@@ -1,5 +1,7 @@
 # Configurações locais do Claude Code (contêm caminhos e TOKENS locais — nunca versionar)
-.claude/
+# Exceção: .claude/skills/ é versionado para compartilhar skills com a equipe
+.claude/*
+!.claude/skills/
 
 # Segredos / credenciais (defesa)
 *.env
