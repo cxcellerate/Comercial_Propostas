@@ -9,7 +9,7 @@
 ## Contexto
 Segunda proposta para o cliente. A primeira (junho/2026, "Redesign Digital", R$ 10.800, 9 páginas com copy em inglês) está em `C:\Users\tk\Galactica\Edu - Amazon Adventure Tours\proposta-amazon-adventure-tours.html`, junto com protótipo, pesquisa de mapas interativos e roteiro Jungle Lodge 5 dias mapeado (My Maps + KML).
 
-Esta proposta é um **escopo alternativo**: site institucional em **português** com traduções por **IA** para 5 idiomas (EN, ES, FR, mandarim, hindi — conferência de textos por conta do cliente), em vez de copy manual em inglês.
+Esta proposta é um **escopo alternativo**: site institucional **nativo em inglês** com traduções por **IA** para 5 idiomas (PT, ES, FR, mandarim, hindi — conferência de textos por conta do cliente). *(Original era em português; invertido para inglês nativo em 12/07/2026, refletido na proposta v2 e no contrato v3, item 1.1.d.)*
 
 ## Escopo
 - Página inicial (overview) + 7 páginas de passeio + Guias + Empresa + 3 páginas LGPD = 13 páginas
