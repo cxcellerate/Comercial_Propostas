@@ -36,7 +36,7 @@ Esta proposta é um **escopo alternativo**: site institucional em **português**
 - Forma de pagamento aplicada: **padrão da casa — PIX à vista com 10% de desconto = R$ 11.520,00** (o `_index` só registrava as 4 opções da proposta, nenhuma fechada).
 
 ### Negociação fechada (12/07/2026)
-- **Valor negociado: R$ 10.000** (desconto de R$ 2.800 = 21,875% sobre os R$ 12.800) — via PIX em 4 parcelas: 30/07 R$ 3.000 · 15/08 R$ 3.000 · 30/08 R$ 2.000 · 15/09 R$ 2.000. Aplicado no contrato v3 (3.2/3.3): valor de tabela R$ 12.800 mantido na 3.1, desconto condicionado à pontualidade das parcelas (inadimplemento >15 dias → valor cheio, abatido o já pago).
+- **Valor negociado: R$ 10.000** (desconto de R$ 2.800 = 21,875% sobre os R$ 12.800) — via PIX em 4 parcelas: 30/07 R$ 3.000 · 15/08 R$ 3.000 · 30/08 R$ 2.000 · 15/09 R$ 2.000. **Assinatura marcada para 30/07/2026, com a 1ª parcela paga no ato** (condição para início dos trabalhos, cláusula 3.3). Aplicado no contrato v3 (3.2/3.3): valor de tabela R$ 12.800 mantido na 3.1, desconto condicionado à pontualidade das parcelas (inadimplemento >15 dias → valor cheio, abatido o já pago).
 
 ### Pendências do contrato (campos `<mark>` a preencher antes da assinatura)
 - [ ] Razão social da Amazon Adventure Tours (aparece 2×: qualificação e assinatura)
