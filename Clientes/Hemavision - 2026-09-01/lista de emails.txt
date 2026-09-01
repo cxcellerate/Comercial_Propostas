@@ -1,0 +1,13 @@
+Emails pessoais
+Fabiola@hemavision.com.br
+Lucas.vieira@hemavision.com.br
+Eduardo@hemavision.com.br
+Samir@hemavision.com.br
+Fernando@hemavision.com.br
+Daniel@hemavision.com.br 
+
+Emails que podem ser opção de mascara: 
+Qualidade@hemavision.com.br
+Financeiro@hemavision.com.br
+Sac@hemavision.com.br
+Comercial@hemavision.com.br
