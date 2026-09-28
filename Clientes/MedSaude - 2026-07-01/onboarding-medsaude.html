@@ -5,10 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Onboarding MedSaude — CXcellerate</title>
 <!--
-  Formulário de onboarding CXcellerate x MedSaude — gerado em 28/09/2026 a partir da proposta v3 (28/09/2026, sem aplicativo, R$ 9.790,00) e do contrato v5.
+  Formulário de onboarding CXcellerate x MedSaude — gerado em 28/09/2026 a partir da proposta v3 (28/09/2026, sem aplicativo, R$ 9.790,00, módulo opcional de marketplaces) e do contrato v6.
   Como funciona: tudo que for digitado é salvo automaticamente neste navegador (localStorage). Use "Exportar JSON" para gerar o
   arquivo de respostas (envie para a CXcellerate) e "Baixar PDF" para a versão impressa. "Importar JSON" recarrega um arquivo salvo.
-  A seção 14 (Atendimento por WhatsApp com IA) só aparece se o cliente marcar "Sim" na seção 3.
+  As seções 14 (Marketplaces) e 15 (Atendimento por WhatsApp com IA) só aparecem se o cliente marcar "Sim" na seção 3.
 -->
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Open+Sans:wght@400;600;700&display=swap');
@@ -156,8 +156,9 @@
     <a href="#s11"><span>11</span>Fidelidade e cashback</a>
     <a href="#s12"><span>12</span>LGPD e privacidade</a>
     <a href="#s13"><span>13</span>Blog, conteúdo e influenciadores</a>
-    <a href="#s14"><span>14</span>Atendimento por WhatsApp com IA (se contratado)</a>
-    <a href="#s15"><span>15</span>Aprovações, comunicação e kickoff</a>
+    <a href="#s14"><span>14</span>Integração com marketplaces (se contratado)</a>
+    <a href="#s15"><span>15</span>Atendimento por WhatsApp com IA (se contratado)</a>
+    <a href="#s16"><span>16</span>Aprovações, comunicação e kickoff</a>
   </nav>
 
   <form id="onb" autocomplete="on" onsubmit="return false">
@@ -244,9 +245,15 @@
     <div class="grid">
       <div class="f c12"><label>Atendimento da loja por WhatsApp com agente de IA — R$ 390,00/mês <span class="hint">(número novo e exclusivo do e-commerce, IA com transbordo humano)</span></label>
         <div class="choices">
-          <label><input type="radio" name="opt_whatsapp" value="sim"> Sim, quero incluir — <i>abre a seção 14</i></label>
+          <label><input type="radio" name="opt_whatsapp" value="sim"> Sim, quero incluir — <i>abre a seção 15</i></label>
           <label><input type="radio" name="opt_whatsapp" value="nao"> Não por enquanto</label>
           <label><input type="radio" name="opt_whatsapp" value="depois"> Quero avaliar depois do lançamento</label>
+        </div></div>
+      <div class="f c12"><label>Integração com marketplaces — módulo opcional: R$ 4.000,00 pela estrutura de conexão + R$ 2.000,00 por canal <span class="hint">(Mercado Livre, Shopee, Magalu, Amazon — catálogo, estoque e pedidos sincronizados com a loja)</span></label>
+        <div class="choices">
+          <label><input type="radio" name="opt_marketplaces" value="sim"> Sim, quero incluir — <i>abre a seção 14</i></label>
+          <label><input type="radio" name="opt_marketplaces" value="nao"> Não por enquanto</label>
+          <label><input type="radio" name="opt_marketplaces" value="depois"> Quero avaliar depois do lançamento</label>
         </div></div>
       <div class="f c6"><label>Suporte técnico CXcellerate — R$ 770,00/mês <span class="hint">(12 h/mês + garantia de atualização; inicia 1 mês após a entrega)</span></label>
         <div class="choices"><label><input type="radio" name="opt_suporte" value="sim"> Sim</label><label><input type="radio" name="opt_suporte" value="nao"> Não</label><label><input type="radio" name="opt_suporte" value="depois"> Avaliar depois</label></div></div>
@@ -513,8 +520,41 @@
 
 
   <!-- 14 (condicional) -->
-  <section id="s14" class="cond" data-cond="opt_whatsapp=sim">
-    <h2>14 — Atendimento por WhatsApp com agente de IA <span class="pill opt">opcional · R$ 390,00/mês</span></h2>
+  <section id="s14" class="cond" data-cond="opt_marketplaces=sim">
+    <h2>14 — Integração com marketplaces <span class="pill opt">opcional · R$ 4.000,00 + R$ 2.000,00 por canal</span></h2>
+    <p class="why">A loja publica e opera nos marketplaces a partir do mesmo catálogo, estoque e painel. As contas de vendedor ficam no CNPJ da MedSaude; comissões e tarifas são cobradas por cada marketplace.</p>
+    <div class="grid">
+      <div class="f c12"><label>Canais que deseja ativar <span class="req">*</span></label>
+        <div class="choices">
+          <label><input type="checkbox" name="mp_canais" value="Mercado Livre"> Mercado Livre</label>
+          <label><input type="checkbox" name="mp_canais" value="Shopee"> Shopee</label>
+          <label><input type="checkbox" name="mp_canais" value="Magalu"> Magalu</label>
+          <label><input type="checkbox" name="mp_canais" value="Amazon"> Amazon</label>
+        </div>
+        <p class="note" id="mp_calc" style="margin-top:8px"><b>Investimento do módulo:</b> estrutura R$ 4.000,00 + 0 canais × R$ 2.000,00 = <b>R$ 4.000,00</b></p></div>
+    </div>
+    <h3>Situação de cada canal</h3>
+    <table id="tab_mp">
+      <thead><tr><th style="width:26px">#</th><th>Canal</th><th>Já possui conta de vendedor?</th><th>Nome da loja / ID da conta</th><th>Reputação / status atual</th><th>Anúncios ativos hoje</th><th>Logística usada no canal <span class="hint">(Mercado Envios, Shopee Envios, própria…)</span></th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+    <button class="add" type="button" onclick="App.addRow('mp')">+ adicionar canal</button>
+    <div class="grid" style="margin-top:12px">
+      <div class="f c6"><label>Regra de preço nos marketplaces</label>
+        <select name="mp_preco"><option value="">Selecione</option><option>Mesmo preço da loja</option><option>Preço maior para cobrir a comissão do canal</option><option>Regra diferente por canal (descrever abaixo)</option><option>A definir no PRD</option></select></div>
+      <div class="f c6"><label>Estoque compartilhado entre loja e marketplaces?</label>
+        <div class="choices"><label><input type="radio" name="mp_estoque" value="sim"> Sim, estoque único</label><label><input type="radio" name="mp_estoque" value="reserva"> Reservar parte para os marketplaces</label></div></div>
+      <div class="f c6"><label>Quem responde as perguntas dos compradores nos marketplaces</label><input type="text" name="mp_atendimento" placeholder="nome · e-mail · horário"></div>
+      <div class="f c6"><label>Emissão de nota fiscal para pedidos dos marketplaces</label>
+        <select name="mp_nf"><option value="">Selecione</option><option>Mesmo fluxo da loja (gateway/ERP)</option><option>Emitida pelo próprio marketplace</option><option>A definir com o contador</option></select></div>
+      <div class="f c12"><label>Produtos que <b>não</b> devem ir aos marketplaces <span class="hint">(restrições regulatórias, margem baixa, exclusividade)</span></label><textarea name="mp_excluidos"></textarea></div>
+      <div class="f c12"><label>Observações sobre marketplaces <span class="hint">(categorias, fretes especiais, campanhas dos canais, regras por canal)</span></label><textarea name="mp_obs"></textarea></div>
+    </div>
+  </section>
+
+  <!-- 15 (condicional) -->
+  <section id="s15" class="cond" data-cond="opt_whatsapp=sim">
+    <h2>15 — Atendimento por WhatsApp com agente de IA <span class="pill opt">opcional · R$ 390,00/mês</span></h2>
     <p class="why">Número novo e exclusivo do e-commerce; assuntos fora da loja vão para o comercial da MedSaude. A IA responde com base no que você definir aqui e transfere para uma pessoa quando não conseguir resolver.</p>
     <div class="grid">
       <div class="f c6"><label>Número do WhatsApp</label>
@@ -558,9 +598,9 @@
     </div>
   </section>
 
-  <!-- 15 -->
-  <section id="s15">
-    <h2>15 — Aprovações, comunicação e kickoff</h2>
+  <!-- 16 -->
+  <section id="s16">
+    <h2>16 — Aprovações, comunicação e kickoff</h2>
     <p class="why">O PRD aprovado é a referência técnica do projeto (cláusula 7.1). Sem manifestação em 5 dias úteis após a solicitação formal, considera-se aprovado (7.3). O prazo de 10 semanas conta a partir do kickoff, com os materiais entregues.</p>
     <div class="grid">
       <div class="f c6"><label>Quem aprova PRD, design e entregas <span class="req">*</span> <span class="hint">(uma pessoa com decisão final)</span></label><input type="text" name="apr_decisor"></div>
@@ -602,9 +642,10 @@ const App = (() => {
     produtos: ['nome','marca','anvisa','sku','preco','preco_ass','estoque','peso_dim','ncm','descricao'],
     influs:   ['nome','rede','seguidores','cupom','comissao','contato'],
     transbordo:['nome','funcao','whatsapp','assuntos','horario'],
-    faq:      ['pergunta','resposta']
+    faq:      ['pergunta','resposta'],
+    mp:       ['canal','conta','loja_id','reputacao','anuncios','logistica']
   };
-  const TEXTAREA = { produtos:['descricao'], faq:['pergunta','resposta'], transbordo:['assuntos'], influs:[] };
+  const TEXTAREA = { produtos:['descricao'], faq:['pergunta','resposta'], transbordo:['assuntos'], influs:[], mp:[] };
   let timer;
 
   function toast(msg){ const t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),1800); }
@@ -627,7 +668,7 @@ const App = (() => {
   function readRows(kind){ return [...document.querySelectorAll('#tab_'+kind+' tbody tr')].map(tr=>{ const o={}; tr.querySelectorAll('[data-col]').forEach(el=>o[el.dataset.col]=el.value); return o; }).filter(o=>Object.values(o).some(v=>v.trim())); }
 
   function collect(){
-    const d = { _meta:{ cliente:'MedSaude', proposta:'28/09/2026', contrato:'v5', gerado:new Date().toISOString() } };
+    const d = { _meta:{ cliente:'MedSaude', proposta:'28/09/2026', contrato:'v6', gerado:new Date().toISOString() } };
     form.querySelectorAll('[name]').forEach(el => {
       if(el.type==='checkbox'){ if(!d[el.name]) d[el.name]=[]; if(el.checked) d[el.name].push(el.value); }
       else if(el.type==='radio'){ if(el.checked) d[el.name]=el.value; else if(!(el.name in d)) d[el.name]=''; }
@@ -664,6 +705,7 @@ const App = (() => {
       if(el.type==='radio'||el.type==='checkbox'){ if(seen.has(el.name)) return; seen.add(el.name); total++; if(form.querySelector(`[name="${el.name}"]:checked`)) done++; return; }
       total++; const f=!!el.value.trim(); if(f) done++; el.classList.toggle('filled',f);
     });
+    const n=form.querySelectorAll('[name="mp_canais"]:checked').length; const el=document.getElementById('mp_calc'); if(el){ const v=4000+2000*n; el.innerHTML='<b>Investimento do módulo:</b> estrutura R$ 4.000,00 + '+n+' '+(n===1?'canal':'canais')+' × R$ 2.000,00 = <b>R$ '+v.toLocaleString('pt-BR',{minimumFractionDigits:2})+'</b>'; }
     const pct=total?Math.round(done/total*100):0; document.getElementById('pct').textContent=pct+'%'; document.getElementById('bar').style.width=pct+'%';
   }
   function save(manual){
@@ -703,6 +745,7 @@ const App = (() => {
   if(!document.querySelector('#tab_faq tbody tr')) { addRow('faq',{pergunta:'Qual o prazo de entrega?',resposta:''}); addRow('faq',{pergunta:'Como funciona a assinatura?',resposta:''}); addRow('faq',{pergunta:'Posso trocar ou devolver um produto?',resposta:''}); }
   if(!document.querySelector('#tab_transbordo tbody tr')) { addRow('transbordo',{}); }
   if(!document.querySelector('#tab_influs tbody tr')) { addRow('influs',{}); }
+  if(!document.querySelector('#tab_mp tbody tr')) { addRow('mp',{}); }
   window.scrollTo(0,0);
   refresh();
   return { addRow, rmRow, save, exportJSON, importJSON, clearAll };
