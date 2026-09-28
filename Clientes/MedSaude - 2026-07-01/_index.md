@@ -9,7 +9,9 @@
 - Referência negativa: supersaudavelshopping.com.br · Referência positiva: sibionics.com.br
 
 ## Comercial
-- **Valor:** R$ 37.900,00 total, discriminado em **Web R$ 26.000** (e-commerce com assinaturas) + **Apps iOS/Android R$ 11.900** (adaptação da base proprietária CXcellerate)
+- **Valor (revisão 28/09/2026 — proposta-medsaude-v2.html):** R$ 29.890,00 total, discriminado em **Web R$ 17.990** (e-commerce com assinaturas) + **Apps iOS/Android R$ 11.900** (adaptação da base proprietária CXcellerate). Valor anterior: R$ 37.900 (Web R$ 26.000).
+- **Formas de pagamento (revisão 28/09/2026):** Pix à vista com 3% desc = R$ 28.993,30 · Entrada R$ 15.000 + 6x boleto R$ 2.481,67 · Cartão à vista R$ 30.831,54 (+3,15%) · Cartão 12x R$ 2.802,19 = R$ 33.626,25 (+12,50%)
+- **Posicionamento tecnológico (revisão 28/09/2026):** e-commerce e app apresentados como **sistema CXcellerate similar à estrutura da Nuvemshop** (substituiu "Base Nuvemshop + camada CXcellerate" em todos os slides da v2)
 - **Cadastro dos até 50 produtos do lançamento incluído no valor** (a partir do material — fotos/descrições/preços — fornecido pela MedSaude, que é premissa); produtos além disso = pacote de R$ 1.500 (slide 12)
 - **Argumento do preço dos apps:** base proprietária pronta + desenvolvimento acelerado (low code interno via Claude Code — na frente do cliente falar "base proprietária, multiplataforma com performance nativa"; evitar as palavras "low code" e "nativo puro")
 - Pix à vista −10% = R$ 34.110,00 (economia R$ 3.790) · 50/50 = 2× R$ 18.950,00 · Cartão à vista +3,15% = R$ 39.093,85 · Cartão 12× +12,50% = R$ 42.637,44 (12× R$ 3.553,12) · Âncora diária: R$ 103,84/dia (R$ 93,45 no Pix)
@@ -22,6 +24,7 @@
 - `nuvemshop-asaas-ecommerce-research.md` — pesquisa técnica Nuvemshop + Asaas
 - `proposta-medsaude.html` — proposta base (copy neutra)
 - `proposta-medsaude-v2.html` — proposta com copy persuasiva (hard-copy)
+- `CXcellerate — Proposta MedSaude 28-09-26.pdf` — export da v2 revisada em 28/09/2026 (sistema CXcellerate + R$ 29.890; A4 paisagem, 19 páginas)
 - `contrato-medsaude-prestacao-servicos-v3.html` — **minuta VIGENTE** (10/07/2026, pós-memorando): v2 + blindagem da base proprietária dos apps (9.4 — resolvia o 🔴 de PI do memorando, Lei 9.609/98), subcontratação (5.2), garantia sem "incondicional" (8.1), LGPD defensiva + incidentes 48h + dados agregados (10.4–10.6 — reforço para dado de saúde), piso de 20% na rescisão (11.2), fallback de pagamento 50/50 (3.3), confidencialidade 5 anos (13.1), não aliciamento (14.6) e sobrevivência (14.7).
 - `contrato-medsaude-prestacao-servicos-v2.html` — minuta v2 (superada, histórico; pós-parecer): + cláusula 12ª (obrigação de meio, responsabilidade limitada ao valor pago, força maior), 13ª (confidencialidade recíproca), 7.3 (aprovação tácita do PRD), 3.3 harmonizado (fallback por aditivo); Disposições Gerais → 14ª, Foro → 15ª (e-mail de notificações agora na cláusula 14.3)
 - `contrato-medsaude-prestacao-servicos.html` — minuta v1 (superada, histórico)
@@ -44,7 +47,7 @@
 - [ ] Cláusula de continuidade (código liberado se a CX encerrar atividades): decisão em aberto — definir antes de assinar (nota já existente nas respostas engatilhadas)
 
 ## Slides-chave (blindagem das perguntas difíceis)
-- Slide "05 — Tecnologia": Web = base Nuvemshop + camada CXcellerate · Apps = base proprietária, multiplataforma com performance nativa (responde "como R$ 26k cobre tudo?")
+- Slide "05 — Tecnologia": Web = sistema CXcellerate similar à estrutura da Nuvemshop · Apps = base proprietária, multiplataforma com performance nativa (responde "como R$ 18k cobre tudo?")
 - Slide "08 — Emissão fiscal": **Asaas emite a nota junto com o pagamento** (custo = taxas de transação + valor por nota, sem mensalidade de emissor) · se cliente já tem ERP/contador: mapeamento no PRD, integração com ERP existente (Bling/Tiny) ou emissão pelo Asaas · enquadramento fiscal validado com o contador no PRD (responde "já tenho ERP/contador")
 - Slide "11 — Pós-lançamento": ver linha em Comercial (responde "bug na semana 15?"). Workspace saiu deste slide (ficou só em Serviços recomendados).
 - Slide "12 — Evolução": processo (pede → orçamento fechado → só executa com aprovação) + pacote destacado **"Crescimento de catálogo & conteúdo — R$ 1.500"**: adição automatizada de **até 50 produtos** (texto + imagens, loja e apps) + 1 reunião de estratégia com marketing (**conteúdo para SEO + fidelização** — é o valor central do pacote) + calendário de publicações mensal. Contexto: catálogo não deve passar de ~50 produtos nem nos próximos meses.
@@ -78,7 +81,7 @@
 - **"Me vende o código, quanto custa?"** → buyout da instância: **R$ 120.000** (só verbal, previsto em contrato se pedirem)
 - **Cláusula de continuidade** (código liberado se a CX encerrar atividades): decisão ainda em aberto — definir antes de assinar contrato
 
-- **Nuvemshop:** plano recomendado = **Impulso**; valor final das mensalidades externas depende de faturamento mensal + quantidade de produtos (fechado no PRD). Slide 08 cobre gateway alternativo: emissão via ERP integrado (Bling/Tiny).
+- **Plataforma web:** na revisão de 28/09/2026 a proposta passou a citar "sistema CXcellerate similar à estrutura da Nuvemshop" (sem citar plano Impulso); valor final das mensalidades externas depende de faturamento mensal + quantidade de produtos (fechado no PRD). Slide 08 cobre gateway alternativo: emissão via ERP integrado (Bling/Tiny).
 - ⚠️ **Checar antes da reunião:** a pesquisa técnica indica que a emissão nativa do Asaas é **NFS-e (nota de serviço, só PJ)** — venda de PRODUTO físico normalmente exige NF-e de produto (modelo 55), que costuma sair via ERP (Bling/Tiny). Confirmar com Asaas/contador qual nota a operação MedSaude emitirá; o slide 08 foi escrito para acomodar os dois cenários.
 
 ## Notas internas
