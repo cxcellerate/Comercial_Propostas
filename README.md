@@ -9,6 +9,7 @@ Repositório central das propostas comerciais da CXcellerate, mantido por toda a
   - `proposta-<cliente>-v2.html` — proposta com copy persuasiva
   - `_index.md` — índice do atendimento
 - `Logo CXcellerate/` — assets de marca
+- `Apresentações/` — palestras e decks em HTML (1920×1080, modo apresentador com tecla P, PDF gerado pelo Chrome) no padrão visual das propostas
 - `.claude/skills/` — skills do Claude Code compartilhadas pela equipe
 - `*.png`, `apresentacao-cxcellerate.html` — assets e deck institucional compartilhados
 
